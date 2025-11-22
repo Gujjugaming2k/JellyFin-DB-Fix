@@ -105,7 +105,7 @@ echo "Dump successful."
 echo "4. Importing dump into new clean database file ($NEW_DB_FILE)..."
 sudo sqlite3 "$NEW_DB_FILE" ".read $TEMP_SQL_FILE"
 if [ $? -ne 0 ]; then
-    echo "ERROR: Failed to import SQL dump into new database. Aborting."
+    echo "VFlix Error - ERROR: Failed to import SQL dump into new database. Aborting."
     exit 1
 fi
 echo "Import successful. New database created."
