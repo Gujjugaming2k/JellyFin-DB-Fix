@@ -15,7 +15,7 @@
 # =================================================================================
 
 # --- Configuration ---
-DB_PATH="/var/lib/jellyfin/data"
+DB_PATH="/tmp/opt/jellyfin/data/data"
 DB_FILE="jellyfin.db"
 DB_FULL_PATH="$DB_PATH/$DB_FILE"
 TEMP_SQL_FILE="/tmp/jellyfin_dump.$$.sql"
